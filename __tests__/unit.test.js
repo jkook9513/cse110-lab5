@@ -76,5 +76,3 @@ test('isHexColor - invalid hex color with wrong format', () => {
 test('isHexColor - invalid hex color with spaces', () => {
   expect(isHexColor('#abc 123')).toBe(false);
 });
-
- 
